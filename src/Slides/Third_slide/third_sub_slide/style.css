@@ -1,18 +1,27 @@
 
 .CD2
 {
+    /* background-image:url('../../../img/ЗвеньяСД2_2.png'); */
+    background-repeat: no-repeat;
+    width: 317px;
+    color: #fff;
+    height: 220px;
+    font-size: 13px;
+    left: 2171px;
+    font-size: 32px;
+    background-size: 100%;
+    top: 1684px;
+}
+.CD2_
+{
     background-image:url('../../../img/ЗвеньяСД2_2.png');
     background-repeat: no-repeat;
-    width: 398px;
-    color: white;
-    height: 220px;
     position: absolute;
-    font-size: 13px;
-    right: -394px;
+    width: 334px;
+    height: 220px;
+    left: 2148px;
     background-size: 100%;
-    left: 2139px;
-    font-size: 32px;
-    top: 1655px;
+    top: 1665px;
 }
 .background_3_3
 

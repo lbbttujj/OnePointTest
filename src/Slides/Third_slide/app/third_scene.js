@@ -39,20 +39,25 @@ export default class ThirdScene extends Component
         return(
             <>
     
-            <Pagination 
+            {/* <Pagination 
              smesh='1890'
              active3={true}
              changeSlide={changeSlide} current={current}
-            />
+            /> */}
             
 
             <div className='third-block'>
         <div className='slides-wrapper'>
-          <ThirdScene1/>
+          <ThirdScene1 />
           <ThirdScene2/>
           <ThirdScene3/>
           
         </div>
+        <Pagination 
+             smesh='1890'
+             active3={true}
+             changeSlide={changeSlide} current={current}
+            />
         <Toggle
            changeSlide={this.onSlideChande.bind(this)}
            

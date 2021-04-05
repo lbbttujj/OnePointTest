@@ -19,10 +19,11 @@ export default class ThirdScene3 extends Component
             <>
             <div className='third-slide horizontal-slide'>
             <div className='background_3_3'></div>
-           
+            <div className='CD2'></div>
+            <div className='CD2_'></div>
             <Ices_third_3/>
             <Tabs_3/>
-            <div className='CD2'></div>
+           
              {/*<div className='insulin'>Инсулинорезистентность</div>
             <div className='rect'></div>
             <div className='giperglik_3'>Гипергликемия</div>
