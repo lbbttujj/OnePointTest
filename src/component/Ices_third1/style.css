@@ -1,0 +1,38 @@
+.Ice
+{
+  
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -10;
+   
+}
+.min
+{
+    background-image:url('../../img/ice_min.png');
+    width: 246px;
+    height: 171px;
+    background-size: 73%;
+    left: 73px;
+    bottom: -2262px;
+    
+}
+.middle
+{
+    background-image:url('../../img/ice_middle.png');
+    width: 141px;
+    height: 201px;
+    background-size: 73%;
+    left: 651px;
+    bottom: -1939px;
+    
+}
+.max
+{
+    background-image:url('../../img/ice_max.png');
+    width: 120px;
+    height: 201px;
+    background-size: 32%;
+    right: 4px;
+    top: 1622px;
+    
+}

@@ -1,0 +1,55 @@
+
+.next{
+
+    position: absolute;
+    bottom: 0%;
+    left: -30%;
+    width: 18%;
+    height: 148px;
+}
+.next-elipse
+{
+    width: 1024px;
+    position: absolute;
+    bottom: 0px;
+    left: 146%;
+    height: 96px;
+    background-image: url('../../img/downelipse1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.next-strong-elispe
+{
+    width: 1024px;
+    position: absolute;
+    bottom: 0px;
+    left: 146%;
+    height: 105px;
+    background-image: url('../../img/downelipse.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.arrow-down
+{
+    width: 169px;
+    position: absolute;
+    bottom: 6%;
+    left: 842px;
+    height: 37px;
+    background-image: url('../../img/arrow-down.png');
+    background-repeat: no-repeat;
+    background-size: 44px;
+    z-index: 3;
+   
+}
+.next-text
+{
+    background-image:url('../../img/next-text.png');
+    position: absolute;
+    background-size: 245px;
+    width: 202px;
+    height: 87px;
+    bottom: 142%;
+    right: 44%;
+
+}

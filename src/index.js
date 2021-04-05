@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MainScene from '../src/Slides/First_slide/main_scene'
+import SecondScene from './Slides/Second_slide/Second-scene'
+import ThirdScene from '../src/Slides/Third_slide/app/third_scene'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

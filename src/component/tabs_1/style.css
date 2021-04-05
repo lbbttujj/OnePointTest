@@ -1,0 +1,23 @@
+.tab_1
+{
+    background-image:url('../../img/tab_1.png');
+    width: 687px;
+    height: 408px;
+    background-size: 82%;
+    position: absolute;
+    top: 1716px;
+    left: 236px;
+    background-repeat: no-repeat;
+}
+.zvenyaCD2
+{
+    background-image:url('../../img/ЗвеньяСД2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 355px;
+    height: 220px;
+    position: absolute;
+    left: 111px;
+    top: 1619px;
+}
+

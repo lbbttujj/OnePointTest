@@ -1,0 +1,249 @@
+.circle
+{
+    background-repeat:no-repeat;
+    width: 100px;
+    height: 100px;
+  
+}
+.bigCircle
+{
+    background-image:url('../../img/bigCircle.png');
+    position: relative;
+    /* right: 6px;
+    top: -4px; */
+
+    background-size:70px;
+    
+    /* animation: pulsation 1s linear infinite; */
+}
+.bigCircle_t
+{
+    background-image:url('../../img/bigCircle.png');
+    position: relative;
+    right: 5px;
+    top: -3px;
+
+    background-size:70px;
+    
+    /* animation: pulsation 1s linear infinite; */
+}
+.middleCircle
+{
+    background-image:url('../../img/middleCircle.png');
+    position: absolute;
+    left: -15%;
+    top: -13%;
+    background-size:70px;
+    
+    animation: linear pulsing 1.5s infinite;
+    animation-delay: -0.25s;
+}
+.smallCircle
+{
+    background-image:url('../../img/smallCircle.png');
+    position: absolute;
+    
+    left: -18%;
+    top: -16%;
+
+
+    background-size:30px;
+    animation-delay: 0s;
+    animation: linear pulsing_small 1.5s infinite;
+}
+.moving-circles_top
+{
+    position: absolute;
+    left: 54%;
+    top: 34%;
+}
+.moving-circles_left
+{
+    position: absolute;
+    left: 26%;
+    top: 54%;
+
+}
+.moving-circles_left > .bigCircle 
+{
+    background-size:50px
+}
+.moving-circles_left > .middleCircle
+{
+    background-size:50px;
+    left: -17px;
+    top: -18px;
+    animation: linear pulsing_left 1.5s infinite;
+    animation-delay: -0.8s;
+}
+.moving-circles_left > .smallCircle
+{
+    left: -24%;
+    top: -25%;
+
+    background-size: 28px;
+    animation-delay: 0s;
+    animation: linear pulsing_small_left 1.5s infinite;
+}
+.moving-circles_right
+{
+    position: absolute;
+    left: 79%;
+    top: 66%;
+}
+.moving-circles_right > .bigCircle 
+{
+    background-size:30px
+}
+.moving-circles_right > .middleCircle
+{
+    background-size: 30px;
+    left: -25%;
+    top: -25%;
+    animation: linear pulsing_right 1.5s infinite;
+    animation-delay: -0.8s;
+}
+.moving-circles_right > .smallCircle
+{
+    left: -34%;
+    top: -34%;
+    background-size: 17px;
+    animation: linear pulsing_small_right 1.5s infinite;
+}
+
+
+.moving-circles_bottom
+{
+    position: absolute;
+    left: 46%;
+    top: 71%;
+}
+.moving-circles_bottom > .bigCircle 
+{
+    background-size:30px;
+   
+    
+}
+.moving-circles_bottom  > .middleCircle
+{
+    background-size: 30px;
+    left: -24%;
+    top: -24%;
+    animation: linear pulsing_bottom 1.5s infinite;
+    animation-delay: -0.8s;
+
+}
+.moving-circles_bottom  > .smallCircle
+{
+    left: -33%;
+    top: -33%;
+    background-size: 15px;
+
+    animation: linear pulsing_small_bottom 1.5s infinite;
+}
+
+
+@keyframes pulsing {
+    0% {
+        transform: scale(0.34);
+
+    }  
+    100% {
+        transform: scale(1);
+        transform: translate(10px,10px);
+        opacity: 1;
+        /* transform: translateY(16px); */
+    }
+  }
+  
+@keyframes pulsing_small {
+    0% {
+        transform: scale(0.01);
+
+    }  
+    100% {
+      
+        transform: scale(0.2);
+          transform: translate(32px,32px);
+          opacity: 0.32;
+     
+    }
+  }
+  @keyframes pulsing_left {
+    0% {
+        transform: scale(0.27);
+
+    }  
+    100% {
+        transform: scale(1);
+        transform: translate(17px,17px);
+        opacity: 1;
+        /* transform: translateY(16px); */
+    }
+  }
+  
+@keyframes pulsing_small_left {
+    0% {
+        transform: scale(0.01);
+
+    }  
+    100% {
+      
+        transform: scale(0.2);
+          transform: translate(36px,36px);
+          opacity: 0.32;
+     
+    }
+  }
+  @keyframes pulsing_bottom {
+    0% {
+        transform: scale(0.27);
+
+    }  
+    100% {
+        transform: scale(1);
+        transform: translate(23px,23px);
+        opacity: 1;
+        /* transform: translateY(16px); */
+    }
+  }
+  
+@keyframes pulsing_small_bottom {
+    0% {
+        transform: scale(0.01);
+
+    }  
+    100% {
+      
+        transform: scale(0.2);
+          transform: translate(41px,41px);
+          opacity: 0.32;
+     
+    }
+  }
+  @keyframes pulsing_right {
+    0% {
+        transform: scale(0.27);
+
+    }  
+    100% {
+        transform: scale(1);
+        transform: translate(25px,25px);
+        opacity: 1;
+        /* transform: translateY(16px); */
+    }
+  }
+  
+@keyframes pulsing_small_right {
+    0% {
+        transform: scale(0.01);
+
+    }  
+    100% {
+      
+        transform: scale(0.2);
+          transform: translate(41px,41px);
+          opacity: 0.32;
+     
+    }
+  }

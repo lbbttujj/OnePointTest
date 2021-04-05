@@ -1,0 +1,21 @@
+.elipses{
+    position: absolute;
+    right: 4%;
+    top: 45%;
+  
+}
+.elipse{
+
+    width: 13px;
+    height: 13px;
+    margin-bottom: 45%;
+    background-image: url('../../img/elipse.png');
+    background-repeat: no-repeat;
+    background-size:13px
+}
+/* .elipse:hover{
+    background-image: url('../../img/elipse_active.png');
+} */
+.active-elipse{
+    background-image: url('../../img/elipse_active.png');
+}

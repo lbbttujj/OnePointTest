@@ -1,0 +1,13 @@
+.second-text
+{
+    width: 484px;
+    height: 226px;
+    position: absolute;
+    background-image:url('../../img/text_second_slide.png');
+    background-repeat: no-repeat;
+    background-size: 519px;
+    left: 265px;
+    top: 1004px;
+}
+
+

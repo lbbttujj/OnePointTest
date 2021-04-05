@@ -1,0 +1,137 @@
+html,body{
+    width: 1024px;
+    height: 768px;
+}
+
+.background {
+    width: 112%;
+    height: 858px;
+    position: relative;
+    background-image: url('../../../img/more.png');
+    background-size: 100%;
+    background-position: center;
+}
+.elipses{
+    position: absolute;
+    right: 4%;
+    top: 45%;
+  
+}
+.elipse{
+
+    width: 13px;
+    height: 13px;
+    margin-bottom: 45%;
+    background-image: url('../../../img/elipse.png');
+    background-repeat: no-repeat;
+    background-size:13px
+}
+.elipse:hover{
+    background-image: url('../../../img/elipse_active.png');
+}
+.active-elipse{
+    background-image: url('../../../img/elipse_active.png');
+}
+
+.next{
+
+    position: absolute;
+    bottom: 0%;
+    left: -30%;
+    width: 20%;
+    height: 100px;
+}
+.next-elipse
+{
+    width: 1089px;
+    position: absolute;
+    bottom: -44px;
+    left: 146%;
+
+
+    height: 149px;
+    background-image: url('../../../img/downelipse1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.next-strong-elispe
+{
+    width: 1023px;
+    position: absolute;
+    bottom: 0;
+    left: 164%;
+    height: 124px;
+    background-image: url('../../../img/downelipse.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.arrow-down
+{
+    width: 169px;
+    position: relative;
+    bottom: -53%;
+    left: 923px;
+    height: 50px;
+    background-image: url('../../../img/arrow-down.png');
+    background-repeat: no-repeat;
+    background-size: 44px;
+    z-index: 3;
+   
+}
+.next-text
+{
+    background-image:url('../../../img/next-text.png');
+  position: absolute;
+    background-size: 245px;
+    width: 200px;
+    height: 200px;
+    bottom: -101%;
+    right: 46%;
+
+}
+.txt-headline
+{
+    width: 800px;
+    position: absolute;
+    left: 6%;
+    top: 15%;
+    height: 150px;
+    background-image:url('../../../img/txt_headline.png');
+    background-repeat:no-repeat;
+    background-size:750px
+}
+.text-top
+{
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    background-repeat:no-repeat;
+    background-size: 164px;
+}
+.hba1c
+{
+    background-image:url('../../../img/HbA1c.png');
+    left: 60%;
+    top: 34%;
+}
+.gipoklemia
+{
+    background-image:url('../../../img/Гипогликемия.png');
+    left: 19%;
+    top: 51%;
+}
+.hardCd
+{
+    background-image:url('../../../img/осложненияСД.png');
+    left: 37%;
+    top: 67%;
+}
+.CCrisks
+{
+    background-image:url('../../../img/CCrisks.png');
+    left: 77%;
+    top: 64%;
+    background-size: 109px;
+
+}
+

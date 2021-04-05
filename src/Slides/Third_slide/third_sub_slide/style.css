@@ -1,0 +1,31 @@
+
+.CD2
+{
+    background-image:url('../../../img/ЗвеньяСД2_2.png');
+    background-repeat: no-repeat;
+    width: 398px;
+    color: white;
+    height: 220px;
+    position: absolute;
+    font-size: 13px;
+    right: -394px;
+    background-size: 100%;
+    left: 2139px;
+    font-size: 32px;
+    top: 1655px;
+}
+.background_3_3
+
+{
+    width: 1024px;
+    height: 768px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../../../img/deepMore.png');
+    position: absolute;
+    left:2048px;
+    top:1536px;
+    background-repeat: no-repeat;
+    z-index: -100;
+}
+

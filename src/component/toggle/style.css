@@ -1,0 +1,55 @@
+.shape
+{
+    width: 590px;
+    height: 44px;
+    background-image: url('../../img/shape.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    left: 212px;
+    bottom: -1496px;
+    opacity: 1 !important;
+}
+.years
+{
+    width: 40px;
+    height: 44px;;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    left: 212px;
+    bottom: 96px;
+}
+._1988
+{
+    background-image: url('../../img/1988.png');
+    left: 0px;
+    bottom: -32px;
+
+}
+._2009
+{
+    background-image: url('../../img/2009.png');
+    left: 278px;
+    bottom: -32px;
+}
+._2016
+{
+    background-image: url('../../img/2016.png');
+    left: 562px;
+    bottom: -32px;
+}
+
+.polygon
+{
+    background-image: url('../../img/polygon.png');
+    left: -9px;
+    height: 51px;
+    bottom: -13px;
+    background-size: 100%;
+}
+.scroller-progress {
+    background-color: #d1eaff;
+    height: 100%;
+    position: absolute;
+  }

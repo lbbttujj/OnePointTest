@@ -1,0 +1,25 @@
+.background_3
+{
+    width: 1024px;
+    height: 768px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../../../img/deepMore.png');
+    position: absolute;
+    top:1536px;
+    background-repeat: no-repeat;
+    z-index: -100;
+}
+.background_3_2
+{
+    width: 1024px;
+    height: 768px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../../../img/deepMore.png');
+    position: absolute;
+    left:1024px;
+    top:1536px;
+    background-repeat: no-repeat;
+    z-index: -100;
+}

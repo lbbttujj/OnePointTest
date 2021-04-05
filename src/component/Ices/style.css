@@ -1,0 +1,40 @@
+.ice
+{
+    position:absolute;
+    width: 129px;
+    height: 200px;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+.R_T
+{
+    right: 0;
+    top: 843px;
+    background-image:url('../../img/ice_righ_top.png');
+    background-size: 130px;
+}
+.L_T
+{
+    left: 130px;
+    top: 921px;
+    background-image:url('../../img/ice_left_top.png');
+    background-size: 46px;
+    
+}
+
+.L_B
+{
+   
+    left: 233px;
+    bottom: -665px;
+    background-image:url('../../img/ice_left_bottom.png');
+    background-size: 102px;
+
+}
+.R_B
+{
+    right: 69px;
+    bottom: -762px;
+    background-image:url('../../img/ice_right_bottom.png');
+    background-size: 69px;
+}

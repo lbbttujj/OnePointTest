@@ -1,0 +1,38 @@
+.Ice
+{
+  
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -10;
+   
+}
+.right_3_2
+{
+    background-image:url('../../img/ice_right_right_2.png');
+    width: 87px;
+    height: 198px;
+    background-size: 100% !important;
+    left: 1961px !important;
+    top: 2161px !important;
+    
+}
+.top_3_2
+{
+    background-image:url('../../img/ice_left_2.png');
+    width: 141px;
+    height: 201px;
+    background-size: 73%;
+    left: 1091px;
+    bottom: -1969px!important;
+    
+}
+.left_3_2
+{
+    background-image:url('../../img/ice_top2.png');
+    width: 36px !important;
+    height: 201px;
+    background-size: 100%;
+    left: 1519px !important;
+    top: 1623px !important;
+    
+}
