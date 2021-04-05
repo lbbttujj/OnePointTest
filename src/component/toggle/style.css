@@ -7,7 +7,7 @@
     background-size: 100%;
     position: absolute;
     left: 0px;
-    bottom: -37px;
+    bottom: -34px;
     opacity: 1 !important;
 }
 .years
@@ -50,7 +50,7 @@
 }
 .scroller-progress {
     background-color: #d1eaff;
-    height: 100%;
+    height: 10px;
     position: absolute;
     top: 2204px;
     left: 172px
