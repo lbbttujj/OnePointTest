@@ -6,8 +6,8 @@
     background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
-    left: 212px;
-    bottom: -1261px;
+    left: 0px;
+    bottom: -37px;
     opacity: 1 !important;
 }
 .years
@@ -52,4 +52,6 @@
     background-color: #d1eaff;
     height: 100%;
     position: absolute;
+    top: 2204px;
+    left: 172px
   }
